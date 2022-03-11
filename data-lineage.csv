@@ -1,8 +1,3 @@
-TargetSchema,TargetObject,TargetObjectType,TargetSubType,TargetSubTypeLevel,TargetSubTypeName,TargetColumn,TargetColumnType,SourceSchema,SourceObject,SourceObjectType,SourceSubType,SourceSubTypeLevel,SourceSubTypeName,SourceColumn,SourceColumnType,Involvment,InvolvmentType
-eval,v_indicator_use,view,,,,indicator,persistent,eval,v_indicator_use,view,query,1,d,indicator_id,temporary,selection,calculation
-eval,v_indicator_use,view,,,,indicator,persistent,eval,v_indicator_use,view,query,1,d,indicator_desc,temporary,selection,calculation
-eval,v_indicator_use,view,query,1,d,indicator_id,temporary,p_lew_core,t_wawi_ref_indicator,table,,,,indicator_id,persistent,selection,plain
-eval,v_indicator_use,view,query,1,d,indicator_desc,temporary,p_lew_core,t_wawi_ref_indicator,table,,,,indicator_desc,persistent,selection,plain
-eval,v_indicator_use,view,,,,time_type,persistent,eval,v_indicator_use,view,query,1,d,time_type,temporary,selection,plain
-eval,v_indicator_use,view,query,1,d,time_type,temporary,eval,v_indicator_use,view,query,2,t,time_type,temporary,selection,plain
-eval,v_indicator_use,view,query,2,t,time_type,temporary,eval,v_indicator_use,view,dual,3,,time_type,constant,selection,plain
+TargetSchema,TargetEntity,TargetEntityType,TargetEntityLevel,TargetEntityAlias,TargetColumn,SourceSchema,SourceEntity,SourceEntityType,SourceEntityLevel,SourceEntityAlias,SourceColumn
+eval,v_indicator_use,view,0,,indicator,eval,v_indicator_use,subquery,1,d,indicator_id
+eval,v_indicator_use,view,0,,indicator,eval,v_indicator_use,subquery,1,d,indicator_desc
