@@ -3,3 +3,6 @@ eval,v_indicator_use,view,,,indicator,persistent,eval,v_indicator_use,view,query
 eval,v_indicator_use,view,,,indicator,persistent,eval,v_indicator_use,view,query,d,indicator_desc,temporary,selection,calculation
 eval,v_indicator_use,view,query,d,indicator_id,temporary,p_lew_core,t_wawi_ref_indicator,table,,,indicator_id,persistent,selection,plain
 eval,v_indicator_use,view,query,d,indicator_desc,temporary,p_lew_core,t_wawi_ref_indicator,table,,,indicator_desc,persistent,selection,plain
+eval,v_indicator_use,view,,,time_type,persistent,eval,v_indicator_use,view,query,d,time_type,temporary,selection,plain
+eval,v_indicator_use,view,query,d,time_type,temporary,eval,v_indicator_use,view,query,t,time_type,temporary,selection,plain
+eval,v_indicator_use,view,query,t,time_type,temporary,eval,v_indicator_use,view,dual,,time_type,constant,selection,plain
