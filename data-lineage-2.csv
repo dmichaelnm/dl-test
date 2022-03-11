@@ -1,0 +1,2 @@
+TargetSchema;TargetEntity;TargetEntityType;TargetEntityLevel;TargetEntityAlias;TargetColumn;SourceSchema;SourceEntity;SourceEntityType;SourceEntityLevel;SourceEntityAlias;SourceColumn
+eval;v_indicator_use;VIEW;1;;indicator;eval;v_indicator_use;SUBQUERY;2;d;indicator_id
