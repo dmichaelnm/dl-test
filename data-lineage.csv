@@ -6,3 +6,8 @@ eval,v_indicator_use,subquery,1,d,indicator_desc,p_lew_core,t_wawi_ref_indicator
 eval,v_indicator_use,view,0,,time_type,eval,v_indicator_use,subquery,1,d,time_type
 eval,v_indicator_use,subquery,1,d,time_type,eval,v_indicator_use,subquery,2,t,time_type
 eval,v_indicator_use,subquery,2,t,time_type,eval,v_indicator_use,constant,3,,time_type
+eval,v_indicator_use,view,0,,calendar_year,eval,v_indicator_use,subquery,1,d,cy
+eval,v_indicator_use,subquery,1,d,cy,eval,v_indicator_use,subquery,2,y,cy
+eval,v_indicator_use,subquery,2,y,cy,p_lew_core,t_wawi_indicator_month,table,0,,cy
+eval,v_indicator_use,subquery,2,y,cy,p_lew_core,t_wawi_indicator_week,table,0,,cy
+eval,v_indicator_use,subquery,2,y,cy,p_lew_core,t_wawi_indicator_day,table,0,,cy
