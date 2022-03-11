@@ -1,0 +1,11 @@
+TargetSchema,TargetObject,TargetObjectType,TargetColumn,SourceSchema,SourceObject,SourceObjectType,SubType,SubTypeName,SourceColumn,Involvment,InvolvmentType
+eval,v_indicator_use,view,indicator,eval,v_indicator_use,view,query,d,indicator_id,selection,calculation
+eval,v_indicator_use,view,indicator,eval,v_indicator_use,view,query,d,indicator_desc,selection,calculation
+eval,v_indicator_use,view,time_type,eval,v_indicator_use,view,query,d,time_type,selection,plain
+eval,v_indicator_use,view,calendar_year,eval,v_indicator_use,view,query,d,cy,selection,plain
+eval,v_indicator_use,view,country,eval,v_indicator_use,view,query,d,client_id,selection,calculation
+eval,v_indicator_use,view,country,p_lew_core,t_wawi_ref_country,table,,,country_iso_cd,selection,calculation
+eval,v_indicator_use,view,organisation_type,eval,v_indicator_use,view,query,d,org_type_id,selection,calculation
+eval,v_indicator_use,view,dummy_fg,eval,v_indicator_use,view,query,d,dummy_fg,selection,plain
+eval,v_indicator_use,view,total,,,,,,,aggregation,count
+eval,v_indicator_use,view,cnt,eval,v_indicator_use,view,query,d,kpges_fg,aggregation,sum
