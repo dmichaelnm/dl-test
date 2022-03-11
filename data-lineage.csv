@@ -1,3 +1,5 @@
 TargetSchema,TargetEntity,TargetEntityType,TargetEntityLevel,TargetEntityAlias,TargetColumn,SourceSchema,SourceEntity,SourceEntityType,SourceEntityLevel,SourceEntityAlias,SourceColumn
 eval,v_indicator_use,view,0,,indicator,eval,v_indicator_use,subquery,1,d,indicator_id
 eval,v_indicator_use,view,0,,indicator,eval,v_indicator_use,subquery,1,d,indicator_desc
+eval,v_indicator_use,subquery,1,d,indicator_id,p_lew_core,t_wawi_ref_indicator,table,0,i,indicator_id
+eval,v_indicator_use,subquery,1,d,indicator_desc,p_lew_core,t_wawi_ref_indicator,table,0,i,indicator_desc
