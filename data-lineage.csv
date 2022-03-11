@@ -11,3 +11,9 @@ eval,v_indicator_use,subquery,1,d,cy,eval,v_indicator_use,subquery,2,y,cy
 eval,v_indicator_use,subquery,2,y,cy,p_lew_core,t_wawi_indicator_month,table,0,,cy
 eval,v_indicator_use,subquery,2,y,cy,p_lew_core,t_wawi_indicator_week,table,0,,cy
 eval,v_indicator_use,subquery,2,y,cy,p_lew_core,t_wawi_indicator_day,table,0,,cy
+eval,v_indicator_use,view,0,,country,eval,v_indicator_use,subquery,1,d,client_id
+eval,v_indicator_use,view,0,,country,p_lew_core,t_wawi_ref_country,table,0,o,country_iso_cd
+eval,v_indicator_use,subquery,1,d,client_id,eval,v_indicator_use,subquery,2,u,client_id
+eval,v_indicator_use,subquery,2,u,client_id,p_lew_core,t_wawi_ref_client_country,table,0,cl,client_id
+eval,v_indicator_use,subquery,2,u,client_id,p_lew_core,t_wawi_org_wh_merge_act,table,0,w,client_id
+eval,v_indicator_use,subquery,2,u,client_id,p_lew_core,t_wawi_org_store_merge_act,table,0,s,client_id
